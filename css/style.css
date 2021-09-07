@@ -5,7 +5,7 @@ body {
 }
 
 h1 {
-    font-family: 'Gugi', cursive;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bolder;
     text-align: center;
     color: whitesmoke;
@@ -39,7 +39,7 @@ h2 {
     text-align: center;
     font-weight: bold;
     color: rgb(255, 255, 255);
-    font-family: 'Quattrocento', serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .form {
@@ -51,9 +51,78 @@ h2 {
     color: rgb(255, 255, 255);
     font-weight: 600;
     font-size: 18px;
-    font-family: 'Quattrocento', serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .form-check-label {
     color: rgb(255, 255, 255);
+}
+
+input[type="radio"] {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+@media only screen and (max-width: 600px) {
+    .overlay {
+        margin-left: 1%;
+        margin-right: 2%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .overlay {
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 22px;
+    }
+    #heading img {
+        float: left;
+        width: 40%;
+        height: 60%;
+        ;
+    }
+}
+
+.card {
+    background: rgb(145, 168, 192);
+}
+
+.card-body {
+    color: rgb(0, 0, 0);
+}
+
+.card-deck {
+    padding-bottom: 20px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
+.footer-copyright {
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.footer-copyright a {
+    color: rgb(255, 255, 255);
+    ;
+    font-weight: 600;
+}
+
+.footer-copyright a:hover {
+    color: rgb(254, 254, 254);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.card-text a:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
 }
