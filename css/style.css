@@ -1,0 +1,17 @@
+body {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-family: 'Gugi', cursive;
+    font-weight: bolder;
+    text-align: center;
+    color: whitesmoke;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    padding-bottom: 2px;
+    font-size: 48px;
+    text-shadow: 2px 2px 5px black;
+}
